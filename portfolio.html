@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        <title>Daniel Viktor Varga</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <img src="images/coder.jpg" class="img-responsive" alt="i-love-coding-logo" />
+                <div class="text-right text-uppercase">
+                    <h1>Daniel Viktor Varga</h1>
+                    <h3>Front-end Professional</h3>
+                </div>
+            </header>
+
+            <hr>
+
+            <img src="images/coding.jpg" class="img-responsive highlighted" alt="highlighted-image">
+
+            <section>
+
+                <h2>Featured Work</h2>
+
+                <div class="text-center row">
+                    <div class="featured-work col-xs-4">
+                        <img src="images/website-small.jpg" class="img-responsive" data-toggle="modal" data-target="#my-website-modal" alt="my-website-image-small">
+                        <h3 class="text-uppercase">My Website</h3>
+                        <p>
+                            <a href="http://github.com" class="big">https://github.com/udacity/Appify/</a>
+                            <a href="http://github.com" class="small">Link</a>
+                        </p>
+                    </div>
+                    <div class="featured-work col-xs-4">
+                        <img src="images/html5-game-small.jpg" class="img-responsive" data-toggle="modal" data-target="#my-html-game-modal" alt="my-html-game-small">
+                        <h3 class="text-uppercase">My HTML5 game</h3>
+                        <p>
+                            <a href="http://github.com" class="big">https://github.com/udacity/Sunflower/</a>
+                            <a href="http://github.com" class="small">Link</a>
+                        </p>
+                    </div>
+                    <div class="featured-work col-xs-4">
+                        <img src="images/js-component-small.jpg" class="img-responsive" data-toggle="modal" data-target="#my-js-component-modal" alt="my-js-component-small">
+                        <h3 class="text-uppercase">My Component</h3>
+                        <p>
+                            <a href="http://github.com" class="big">https://github.com/udacity/Bokeh/</a>
+                            <a href="http://github.com" class="small">Link</a>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="my-website-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">My website</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/website-big.jpg" alt="my-website-image-big">
+                            This is a website about my adventures of front-end engineering.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="my-html-game-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">My HTML5 Game</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/html5-game-big.jpg" alt="my-html-game-small">
+                            A very fun and addictive game of mine, written with javascript and html5.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="my-js-component-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">My component</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/js-component-big.jpg" alt="my-js-component-small">
+                            A little javascript component, just for fun. :)
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
